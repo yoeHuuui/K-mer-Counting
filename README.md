@@ -14,7 +14,7 @@ My algorithm is try to implement the BFCounter.
 
 ## How to use it
 On Linux or terminal, you just need to run it with three parameter: the path of your input fasta file, the length of k-mer, and the counts of all k-mers in the fasta file that occur at least q times.
-> python kmer_counting.py x.fa 20 40 
+> '''python kmer_count.py input.fa 20 40'''
 
 ## Analysis the complexity
 
