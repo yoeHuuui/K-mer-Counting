@@ -12,6 +12,10 @@ My algorithm is try to implement the BFCounter.
 
 3. In the programe, It will read in the sequence and splice into the k-mer, and then the k-mer will be coded. The boolm filter will check that whether the k-mer in the array. If the k-mer in boolm filter, The k-mer will be inserted to the hash table, otherwise, the k-mer will be added to bloom filter. After processing the whole k-mer, scaning the hash table for printing k-mer that is satisfactory.
 
+## How to use it
+On Linux or terminal, you just need to run it with three parameter: the path of your input fasta file, the length of k-mer, and the counts of all k-mers in the fasta file that occur at least q times.
+> python kmer_counting.py x.fa 20 40 
+
 ## Analysis the complexity
 
 ### Time complexity
